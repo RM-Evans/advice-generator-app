@@ -1,28 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Advice generator app</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
 </head>
+
 <body>
+  <section id="modal-main">
+    <div id="modal-content">
+      <p id="advice-id-text">
+        ADVICE #420
+        <!-- Advice ID goes here -->
+      </p>
 
-  Advice #<!-- Advice ID goes here -->
+      <p id="advice-text">
+        "
+        it is easy to sit up and take notice. whats difficult is getting up and taking action
+        <!-- Advice text goes here -->"
+      </p>
 
-  "<!-- Advice text goes here -->"
-  
+      <!-- <div class="divider-main"> </div> -->
+      <img id="mobile-divider" src="images/pattern-divider-mobile.svg">
+      <img id="desktop-divider" src="images/pattern-divider-desktop.svg">
+
+
+      <button id="randomize-btn">
+        <img src="images/icon-dice.svg">
+      </button>
+    </div>
+
+  </section>
+
+
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">RM-Evans</a>.
   </div>
 </body>
+
 </html>
