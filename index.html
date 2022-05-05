@@ -1,50 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Advice generator app</title>
 
-  <title>Frontend Mentor | Advice generator app</title>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <body>
+    <section id="modal-main">
+      <div id="modal-content">
+        <p id="advice-id-text">
+          ADVICE #<span id="advice-id"></span>
+          <!-- Advice ID goes here -->
+        </p>
 
-</head>
+        <div id="advice-text-container">
+          "<span id="advice-text"></span>"
+          <!-- Advice text goes here -->
+        </div>
 
-<body>
-  <section id="modal-main">
-    <div id="modal-content">
-      <p id="advice-id-text">
-        ADVICE #420
-        <!-- Advice ID goes here -->
-      </p>
+        <!-- <div class="divider-main"> </div> -->
+        <img id="mobile-divider" src="images/pattern-divider-mobile.svg" />
+        <img id="desktop-divider" src="images/pattern-divider-desktop.svg" />
 
-      <p id="advice-text">
-        "
-        it is easy to sit up and take notice. whats difficult is getting up and taking action
-        <!-- Advice text goes here -->"
-      </p>
+        <button id="randomize-btn">
+          <img src="images/icon-dice.svg" />
+        </button>
+      </div>
+    </section>
 
-      <!-- <div class="divider-main"> </div> -->
-      <img id="mobile-divider" src="images/pattern-divider-mobile.svg">
-      <img id="desktop-divider" src="images/pattern-divider-desktop.svg">
-
-
-      <button id="randomize-btn">
-        <img src="images/icon-dice.svg">
-      </button>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">RM-Evans</a>.
     </div>
-
-  </section>
-
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">RM-Evans</a>.
-  </div>
-</body>
-
+  </body>
+  <script src="/script.js"></script>
 </html>
