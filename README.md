@@ -28,7 +28,7 @@ Generate new advice at the click of a button
 
 ### Links
 
-- Solution URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution]([https://your-live-site-url.com](https://www.frontendmentor.io/solutions/advice-generator-vanilla-html-css-js-_JWeU4AouI))
 - Live Site URL: [The Live Site](https://rm-evans.github.io/advice-generator-app/)
 
 ## My process
