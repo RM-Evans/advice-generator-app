@@ -4,7 +4,7 @@ async function fetchAdvice() {
   let response = await fetch(apiURL)
   let data = await response.json()
 
-  // console.log(data)
+  console.log(data)
 
   document.getElementById('advice-id').innerHTML = data.slip.id
   document.getElementById('advice-text').innerHTML = data.slip.advice
